@@ -47,16 +47,16 @@ void init() {
 
 void ground() {
 	glBegin(GL_QUADS);
-	glColor3f(0.3f, 0.3f, 0.3f);
+	glColor3f(0.3f, 1.0f, 0.3f);
 	glVertex3f(-1000.0, 0, -1000.0);
 
-	glColor3f(0.6f, 0.6f, 0.6f);
+	glColor3f(0.6f, 1.0f, 0.6f);
 	glVertex3f(1000.0, 0, -1000.0);
 
-	glColor3f(0.6f, 0.6f, 0.6f);
+	glColor3f(0.6f, 0.8f, 0.6f);
 	glVertex3f(1000.0, 0, 1000.0);
 
-	glColor3f(0.3f, 0.3f, 0.3f);
+	glColor3f(0.3f, 0.8f, 0.3f);
 	glVertex3f(-1000.0, 0, 1000.0);
 	glEnd();
 }
